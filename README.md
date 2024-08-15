@@ -76,6 +76,16 @@
 
 - JWT (JSON Web Tokens)
 
+### Acknowledgments
+
+Express
+React
+MongoDB
+Vite
+JWT
+Helmet
+Rate Limit
+
 
 
 
