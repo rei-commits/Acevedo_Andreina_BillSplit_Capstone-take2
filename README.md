@@ -81,13 +81,13 @@
 
 ### Acknowledgments
 
-Express
-React
-MongoDB
-Vite
-JWT
-Helmet
-Rate Limit
+- Express
+- React
+- MongoDB
+- Vite
+- JWT
+- Helmet
+- Rate Limit
 
 
 
