@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js"
+    "server": "node server.js",
+    "client": "npm run dev --prefix capstone-project",
+    "start": "concurrently \"npm run server\" \"npm run capstone-project\"",
+    "build": "npm install && npm install --prefix capstone-project npm run build --prefix capstone-project"
   },
   "keywords": [],
   "author": "",
