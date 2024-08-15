@@ -15,6 +15,9 @@
 - [License](#license)
 - [Contact](#contact)
 
+  #Vimeo - BillSplit Capstone 
+  [Click here to watch the video on Vimeo](https://vimeo.com/999151183)
+
 ## Features
 
 - **Bill Splitting**: Split the bill amount among a group of people, including tips.
