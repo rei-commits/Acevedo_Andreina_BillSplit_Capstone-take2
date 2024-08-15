@@ -16,7 +16,7 @@
 - [Contact](#contact)
 
 
-  [Click here to watch the video on Vimeo](https://vimeo.com/999151183)
+ - [Click here to watch the video on Vimeo](https://vimeo.com/999151183)
 
 ## Features
 
