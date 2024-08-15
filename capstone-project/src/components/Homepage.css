@@ -1,0 +1,77 @@
+/* Homepage.css */
+
+/* Overall page styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #6D8A96; /* Light background color for contrast */
+  }
+  
+  /* Container for the content */
+  .homepage-container {
+    text-align: center;
+    padding: 50px 20px;
+    background: #fff; /* White background for the content area */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Styling for the logo */
+  .logo {
+    width: 350px; /* Adjust size as needed */
+    height: auto;
+    margin: 20px auto; /* Ensure logo has space around it */
+    display: block;
+    animation: moveUpDown 3s ease-in-out infinite; /* Apply animation */
+  }
+  
+  /* Keyframes for up and down movement */
+  @keyframes moveUpDown {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-15px); /* Move up */
+    }
+    100% {
+      transform: translateY(0); /* Move down */
+    }
+  }
+  
+  /* Header styling */
+  h1 {
+    font-size: 2.5em;
+    color: #677348; /* Dark peach color */
+    margin-bottom: 40px; /* Space below the header */
+    margin-top: 10px; /* Adjust this value to move header higher */
+  }
+  
+  /* Footer text styling */
+  .homepage-tagline {
+    font-size: 20px;
+    color: #4a4a4a;
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  .homepage-footer {
+    font-size: 0.9rem;
+    color: #333333;
+    margin-top: 70px;
+    text-align: center;
+  }
+  
+  
+  /* Button Styling Adjusted for better usability */
+  button {
+    padding: 15px 30px; /* More padding for a better click area */
+    font-weight: bold; /* Bold text for better readability */
+  }
+  
+  /* Adjust hover effects for interactivity */
+  button:hover {
+    transform: scale(1.1); /* Slightly larger hover effect */
+    opacity: 0.9; /* Slight opacity change on hover for feedback */
+  }

@@ -1,0 +1,81 @@
+/* BillSplitting.css */
+
+/* Container Styles */
+.container {
+    text-align: center;
+    padding: 20px;
+    background: #F0D866;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+/* Form Styles */
+input {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.button-container {
+    margin-top: 20px; /* Ensure buttons are below input fields */
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+    display: inline-block; /* Ensure buttons are treated as inline-block elements */
+}
+
+button.calculate {
+    background: #27ae60; /* Green color for calculate button */
+    color: #fff;
+}
+
+button.calculate:hover {
+    background: #219150;
+    transform: scale(1.05);
+}
+
+button.clear {
+    background: #e74c3c; /* Red color for clear button */
+    color: #fff;
+}
+
+button.clear:hover {
+    background: #c0392b;
+    transform: scale(1.05);
+}
+
+/* Result Styles */
+h2, h3 {
+    color: #2c3e50;
+}
+
+h2 {
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    font-size: 16px;
+    color: #34495e;
+}

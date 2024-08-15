@@ -7,7 +7,9 @@ const helmet = require('helmet');
 const rateLimit = require('express-rate-limit');
 const app = express();
 const path = require('path');
+const port = 5000;
 
+app.use(cors()); 
 app.use(express.json());
 app.use(helmet()); // Add helmet for security
 
@@ -124,7 +126,7 @@ if (process.env.NODE_ENV === "production") {
     });
   }
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
 
 //Updated again

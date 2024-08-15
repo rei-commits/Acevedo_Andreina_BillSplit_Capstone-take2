@@ -2,7 +2,7 @@ import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Homepage from './components/Homepage'; // Adjust path if Homepage.js is inside 'components'
 import CombinedAuth from './components/CombinedAuth'; // Adjust path if CombinedAuth.js is inside 'components'
-import BillSplitting from './components/BillSplitting'; // Assuming BillSplitting.js is in src/components/
+import BillSplitting from './components/BillSplitting'; // Adjust if the path is different
 import Navbar from './components/Navbar'; // Adjust path if Navbar.js is inside 'components'
 import './App.css';
 
