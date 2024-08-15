@@ -117,7 +117,7 @@ app.post('/api/bills', auth, async (req, res) => {
 });
 
 if (process.env.NODE_ENV === "production") {
-    app.use(express.static(path.join(path.resolve(), "/capstone-project/build/disc")));
+    app.use(express.static(path.join(path.resolve(), "../../capstone/Capstone-take2/capstone-project/dist")));
     app.get("*", (req, res) => {
       res.sendFile(path.join(path.resolve(), "capstone-project", "build", "index.html"));
     });
