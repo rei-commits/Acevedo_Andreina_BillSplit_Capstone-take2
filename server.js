@@ -9,6 +9,11 @@ const app = express();
 const path = require('path');
 const port = 5000;
 const cors = require('cors');
+const { fileURLToPath } = require('url');
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
 
 app.use(cors()); 
 app.use(express.json());
@@ -119,13 +124,14 @@ app.post('/api/bills', auth, async (req, res) => {
 if (process.env.NODE_ENV === "production") {
     app.use(express.static(path.join(path.resolve(), "../../capstone/Capstone-take2/capstone-project/dist")));
     app.get("*", (req, res) => {
-      res.sendFile(path.join(path.resolve(), "capstone-project", "build", "index.html"));
+      res.sendFile(path.join(path.resolve( __dirname, '../../capstone-project/dist', 'index.html')));
     });
-  } else {
+
+ } else {
     app.get("/", (req, res) => {
       res.send("API is running...");
     });
-  }
+ }
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
